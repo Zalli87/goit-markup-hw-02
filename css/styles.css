@@ -1,0 +1,76 @@
+/*цвет основного текста #212121; */
+/*цвет творичного текста #757575; */
+/*акцент #2196F3; */
+/*белый #FFFFFF; */
+:root {
+  --prime-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--prime-text-color);
+}
+ul {
+  list-style: none;
+}
+/* logo */
+.logo {
+  color: var(--prime-text-color);
+}
+.logo span {
+  color: var(--accent-color);
+}
+/* site-nav */
+.site-nav .link {
+  color: var(--prime-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact a {
+  color: var(--second-text-color);
+}
+.contact a:hover,
+.contact a:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--prime-text-color);
+}
+/* section */
+.section-title {
+  color: var(--prime-text-color);
+}
+.section p {
+  color: var(--second-text-color);
+}
+/* Advantage */
+.advantage-list .title {
+  color: var(--prime-text-color);
+}
+/* Projects */
+.projects-list a {
+  background-color: var(--prime-text-color);
+  color: var(--white-color);
+}
+/* Team */
+.team-list .title {
+  color: var(--prime-text-color);
+}
+/* Button */
+.button {
+  color: var(--prime-text-color);
+  background-color: var(--white-color);
+}
+
+/* Works */
+.works-list .title {
+  color: var(--prime-text-color);
+}
+.works-list p {
+  color: var(--second-text-color);
+}
